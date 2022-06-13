@@ -1,0 +1,10 @@
+server start,  timestamp: 1650872854143071
+Finish creating dyn scheduler
+new connection,  timestamp: 1650872856176736
+block 2505 miss deadline, canceled
+
+block 2509 miss deadline, canceled
+
+block 2513 miss deadline, canceled
+
+connection closed in timeout_cb

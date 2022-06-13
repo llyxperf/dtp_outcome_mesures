@@ -1,0 +1,427 @@
+CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-unknown-linux-gnu = None
+CMAKE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE = None
+CMAKE = None
+running: "cmake" "/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/deps/boringssl" "-DCMAKE_INSTALL_PREFIX=/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+-- The C compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Perl: /usr/bin/perl (found version "5.26.1") 
+-- Checking for module 'libunwind-generic'
+--   No package 'libunwind-generic' found
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build
+running: "cmake" "--build" "." "--target" "bssl" "--config" "RelWithDebInfo" "--parallel" "4"
+make[1]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[2]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[3]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[  0%] Built target global_target
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[  0%] [34m[1mGenerating aesni-gcm-x86_64.S[0m
+[  0%] [34m[1mGenerating x86_64-mont5.S[0m
+[  0%] [34m[1mGenerating aesni-x86_64.S[0m
+[  1%] [34m[1mGenerating ghash-ssse3-x86_64.S[0m
+[  1%] [34m[1mGenerating ghash-x86_64.S[0m
+[  1%] [34m[1mGenerating md5-x86_64.S[0m
+[  1%] [34m[1mGenerating p256-x86_64-asm.S[0m
+[  1%] [34m[1mGenerating p256_beeu-x86_64-asm.S[0m
+[  2%] [34m[1mGenerating rdrand-x86_64.S[0m
+[  2%] [34m[1mGenerating rsaz-avx2.S[0m
+[  2%] [34m[1mGenerating sha1-x86_64.S[0m
+[  2%] [34m[1mGenerating sha256-x86_64.S[0m
+[  4%] [34m[1mGenerating sha512-x86_64.S[0m
+[  4%] [34m[1mGenerating vpaes-x86_64.S[0m
+[  4%] [34m[1mGenerating x86_64-mont.S[0m
+[35m[1mScanning dependencies of target fipsmodule[0m
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[  4%] [32mBuilding C object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/bcm.c.o[0m
+[  4%] [32mBuilding C object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/is_fips.c.o[0m
+[  4%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/aesni-gcm-x86_64.S.o[0m
+[  5%] [32mBuilding C object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/fips_shared_support.c.o[0m
+[  5%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/aesni-x86_64.S.o[0m
+[  6%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/ghash-ssse3-x86_64.S.o[0m
+[  6%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/md5-x86_64.S.o[0m
+[  6%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/ghash-x86_64.S.o[0m
+[  6%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/p256-x86_64-asm.S.o[0m
+[  8%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/p256_beeu-x86_64-asm.S.o[0m
+[  8%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rdrand-x86_64.S.o[0m
+[  8%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rsaz-avx2.S.o[0m
+[  8%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha1-x86_64.S.o[0m
+[  8%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha256-x86_64.S.o[0m
+[  9%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha512-x86_64.S.o[0m
+[  9%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/vpaes-x86_64.S.o[0m
+[  9%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/x86_64-mont5.S.o[0m
+[  9%] [32mBuilding ASM object crypto/fipsmodule/CMakeFiles/fipsmodule.dir/x86_64-mont.S.o[0m
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[  9%] Built target fipsmodule
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[  9%] [34m[1mGenerating chacha/chacha-x86_64.S[0m
+[  9%] [34m[1mGenerating test/trampoline-x86_64.S[0m
+[ 10%] [34m[1mGenerating cipher_extra/aes128gcmsiv-x86_64.S[0m
+[ 10%] [34m[1mGenerating cipher_extra/chacha20_poly1305_x86_64.S[0m
+[ 10%] [34m[1mGenerating err_data.c[0m
+[35m[1mScanning dependencies of target crypto[0m
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[ 10%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_bitstr.c.o[0m
+[ 10%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_bool.c.o[0m
+[ 10%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_dup.c.o[0m
+[ 12%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_d2i_fp.c.o[0m
+[ 12%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_enum.c.o[0m
+[ 12%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_gentm.c.o[0m
+[ 13%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_i2d_fp.c.o[0m
+[ 13%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_int.c.o[0m
+[ 13%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_mbstr.c.o[0m
+[ 13%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_object.c.o[0m
+[ 14%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_octet.c.o[0m
+[ 14%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_strnid.c.o[0m
+[ 14%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_print.c.o[0m
+[ 14%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_time.c.o[0m
+[ 14%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_type.c.o[0m
+[ 16%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_utctm.c.o[0m
+[ 16%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/a_utf8.c.o[0m
+[ 16%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/asn1_lib.c.o[0m
+[ 16%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/asn1_par.c.o[0m
+[ 17%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/asn_pack.c.o[0m
+[ 17%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/f_enum.c.o[0m
+[ 17%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/f_int.c.o[0m
+[ 17%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/f_string.c.o[0m
+[ 17%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/tasn_dec.c.o[0m
+[ 18%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/tasn_enc.c.o[0m
+[ 18%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/tasn_fre.c.o[0m
+[ 18%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/tasn_new.c.o[0m
+[ 18%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/tasn_typ.c.o[0m
+[ 20%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/tasn_utl.c.o[0m
+[ 20%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/asn1/time_support.c.o[0m
+[ 20%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/base64/base64.c.o[0m
+[ 20%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/bio.c.o[0m
+[ 21%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/bio_mem.c.o[0m
+[ 21%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/connect.c.o[0m
+[ 21%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/fd.c.o[0m
+[ 21%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/file.c.o[0m
+[ 21%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/hexdump.c.o[0m
+[ 22%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/pair.c.o[0m
+[ 22%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/printf.c.o[0m
+[ 22%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/socket.c.o[0m
+[ 22%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bio/socket_helper.c.o[0m
+[ 24%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bn_extra/bn_asn1.c.o[0m
+[ 24%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bn_extra/convert.c.o[0m
+[ 24%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/buf/buf.c.o[0m
+[ 24%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bytestring/asn1_compat.c.o[0m
+[ 24%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bytestring/ber.c.o[0m
+[ 25%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bytestring/cbb.c.o[0m
+[ 25%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bytestring/cbs.c.o[0m
+[ 25%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/bytestring/unicode.c.o[0m
+[ 25%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/chacha/chacha.c.o[0m
+[ 27%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/cipher_extra.c.o[0m
+[ 27%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/derive_key.c.o[0m
+[ 27%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_aesccm.c.o[0m
+[ 27%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_aesctrhmac.c.o[0m
+[ 28%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_aesgcmsiv.c.o[0m
+[ 28%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_chacha20poly1305.c.o[0m
+[ 28%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_rc2.c.o[0m
+[ 28%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_null.c.o[0m
+[ 28%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_rc4.c.o[0m
+[ 29%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/e_tls.c.o[0m
+[ 29%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cipher_extra/tls_cbc.c.o[0m
+[ 29%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cmac/cmac.c.o[0m
+[ 29%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/conf/conf.c.o[0m
+[ 29%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cpu-aarch64-linux.c.o[0m
+[ 31%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cpu-aarch64-fuchsia.c.o[0m
+[ 31%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cpu-arm-linux.c.o[0m
+[ 31%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cpu-arm.c.o[0m
+[ 31%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cpu-intel.c.o[0m
+[ 32%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/cpu-ppc64le.c.o[0m
+[ 32%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/crypto.c.o[0m
+[ 32%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/curve25519/spake25519.c.o[0m
+[ 32%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/dh/dh.c.o[0m
+[ 33%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/dh/params.c.o[0m
+[ 33%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/dh/check.c.o[0m
+[ 33%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/dh/dh_asn1.c.o[0m
+[ 33%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/digest_extra/digest_extra.c.o[0m
+[ 35%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/dsa/dsa.c.o[0m
+[ 35%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/dsa/dsa_asn1.c.o[0m
+[ 35%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/ecdh_extra/ecdh_extra.c.o[0m
+[ 35%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/ecdsa_extra/ecdsa_asn1.c.o[0m
+[ 35%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/ec_extra/ec_asn1.c.o[0m
+[ 36%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/ec_extra/ec_derive.c.o[0m
+[ 36%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/err/err.c.o[0m
+[ 36%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/err_data.c.o[0m
+[ 36%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/engine/engine.c.o[0m
+[ 37%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/digestsign.c.o[0m
+[ 37%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/evp.c.o[0m
+[ 37%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/evp_asn1.c.o[0m
+[ 37%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/evp_ctx.c.o[0m
+[ 37%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_dsa_asn1.c.o[0m
+[ 39%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_ec.c.o[0m
+[ 39%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_ec_asn1.c.o[0m
+[ 39%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_ed25519.c.o[0m
+[ 39%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_ed25519_asn1.c.o[0m
+[ 40%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_rsa.c.o[0m
+[ 40%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_rsa_asn1.c.o[0m
+[ 40%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_x25519.c.o[0m
+[ 40%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/p_x25519_asn1.c.o[0m
+[ 41%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/pbkdf.c.o[0m
+[ 41%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/print.c.o[0m
+[ 41%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/sign.c.o[0m
+[ 41%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/ex_data.c.o[0m
+[ 41%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/evp/scrypt.c.o[0m
+[ 43%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/hkdf/hkdf.c.o[0m
+[ 43%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/hrss/hrss.c.o[0m
+[ 43%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/lhash/lhash.c.o[0m
+[ 44%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/mem.c.o[0m
+[ 44%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/obj/obj.c.o[0m
+[ 44%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/obj/obj_xref.c.o[0m
+[ 44%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_all.c.o[0m
+[ 44%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_info.c.o[0m
+[ 44%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_lib.c.o[0m
+[ 45%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_oth.c.o[0m
+[ 45%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_pk8.c.o[0m
+[ 45%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_pkey.c.o[0m
+[ 45%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_x509.c.o[0m
+[ 47%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pem/pem_xaux.c.o[0m
+[ 47%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pkcs7/pkcs7_x509.c.o[0m
+[ 47%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pkcs7/pkcs7.c.o[0m
+[ 47%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pkcs8/pkcs8.c.o[0m
+[ 47%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pkcs8/p5_pbev2.c.o[0m
+[ 48%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pkcs8/pkcs8_x509.c.o[0m
+[ 48%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/poly1305/poly1305_arm.c.o[0m
+[ 48%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/poly1305/poly1305.c.o[0m
+[ 50%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/pool/pool.c.o[0m
+[ 50%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/poly1305/poly1305_vec.c.o[0m
+[ 50%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rand_extra/deterministic.c.o[0m
+[ 50%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rand_extra/forkunsafe.c.o[0m
+[ 50%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rand_extra/fuchsia.c.o[0m
+[ 51%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rand_extra/rand_extra.c.o[0m
+[ 51%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rc4/rc4.c.o[0m
+[ 51%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rand_extra/windows.c.o[0m
+[ 51%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/refcount_c11.c.o[0m
+[ 51%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/refcount_lock.c.o[0m
+[ 52%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rsa_extra/rsa_asn1.c.o[0m
+[ 52%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/rsa_extra/rsa_print.c.o[0m
+[ 52%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/stack/stack.c.o[0m
+[ 52%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/siphash/siphash.c.o[0m
+[ 54%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/thread.c.o[0m
+[ 54%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/thread_pthread.c.o[0m
+[ 54%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/thread_none.c.o[0m
+[ 54%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/thread_win.c.o[0m
+[ 55%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/a_digest.c.o[0m
+[ 55%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/a_sign.c.o[0m
+[ 55%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/a_strex.c.o[0m
+[ 55%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/a_verify.c.o[0m
+[ 55%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/algorithm.c.o[0m
+[ 56%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/asn1_gen.c.o[0m
+[ 56%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/by_dir.c.o[0m
+[ 56%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/by_file.c.o[0m
+[ 56%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/i2d_pr.c.o[0m
+[ 58%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/rsa_pss.c.o[0m
+[ 58%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/t_crl.c.o[0m
+[ 58%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/t_x509.c.o[0m
+[ 58%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/t_req.c.o[0m
+[ 58%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/t_x509a.c.o[0m
+[ 59%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509.c.o[0m
+[ 59%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_att.c.o[0m
+[ 59%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_cmp.c.o[0m
+[ 59%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_d2.c.o[0m
+[ 60%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_def.c.o[0m
+[ 60%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_ext.c.o[0m
+[ 60%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_lu.c.o[0m
+[ 60%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_obj.c.o[0m
+[ 62%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_r2x.c.o[0m
+[ 62%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_req.c.o[0m
+[ 62%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_set.c.o[0m
+[ 62%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_trs.c.o[0m
+[ 63%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_v3.c.o[0m
+[ 63%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_vfy.c.o[0m
+[ 63%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_txt.c.o[0m
+[ 63%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509_vpm.c.o[0m
+[ 63%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509cset.c.o[0m
+[ 64%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509name.c.o[0m
+[ 64%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509rset.c.o[0m
+[ 64%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x509spki.c.o[0m
+[ 64%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_algor.c.o[0m
+[ 64%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_all.c.o[0m
+[ 66%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_attrib.c.o[0m
+[ 66%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_crl.c.o[0m
+[ 66%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_exten.c.o[0m
+[ 67%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_name.c.o[0m
+[ 67%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_info.c.o[0m
+[ 67%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_pkey.c.o[0m
+[ 67%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_pubkey.c.o[0m
+[ 68%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_sig.c.o[0m
+[ 68%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_req.c.o[0m
+[ 68%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_spki.c.o[0m
+[ 68%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_val.c.o[0m
+[ 68%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_x509.c.o[0m
+[ 68%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509/x_x509a.c.o[0m
+[ 70%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/pcy_cache.c.o[0m
+[ 70%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/pcy_data.c.o[0m
+[ 70%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/pcy_lib.c.o[0m
+[ 70%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/pcy_map.c.o[0m
+[ 71%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/pcy_node.c.o[0m
+[ 71%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/pcy_tree.c.o[0m
+[ 71%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_akey.c.o[0m
+[ 71%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_akeya.c.o[0m
+[ 71%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_alt.c.o[0m
+[ 72%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_bcons.c.o[0m
+[ 72%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_bitst.c.o[0m
+[ 72%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_conf.c.o[0m
+[ 72%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_cpols.c.o[0m
+[ 74%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_crld.c.o[0m
+[ 74%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_enum.c.o[0m
+[ 74%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_extku.c.o[0m
+[ 74%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_genn.c.o[0m
+[ 75%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_ia5.c.o[0m
+[ 75%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_int.c.o[0m
+[ 75%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_info.c.o[0m
+[ 75%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_lib.c.o[0m
+[ 75%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_ncons.c.o[0m
+[ 77%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_ocsp.c.o[0m
+[ 77%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_pci.c.o[0m
+[ 77%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_pcia.c.o[0m
+[ 77%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_pcons.c.o[0m
+[ 78%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_pku.c.o[0m
+[ 78%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_pmaps.c.o[0m
+[ 78%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_prn.c.o[0m
+[ 78%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_purp.c.o[0m
+[ 78%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_skey.c.o[0m
+[ 79%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_sxnet.c.o[0m
+[ 79%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/x509v3/v3_utl.c.o[0m
+[ 79%] [32mBuilding C object crypto/CMakeFiles/crypto.dir/__/third_party/fiat/curve25519.c.o[0m
+[ 79%] [32mBuilding ASM object crypto/CMakeFiles/crypto.dir/chacha/chacha-x86_64.S.o[0m
+[ 81%] [32mBuilding ASM object crypto/CMakeFiles/crypto.dir/cipher_extra/aes128gcmsiv-x86_64.S.o[0m
+[ 81%] [32mBuilding ASM object crypto/CMakeFiles/crypto.dir/cipher_extra/chacha20_poly1305_x86_64.S.o[0m
+[ 81%] [32mBuilding ASM object crypto/CMakeFiles/crypto.dir/hrss/asm/poly_rq_mul.S.o[0m
+[ 81%] [32mBuilding ASM object crypto/CMakeFiles/crypto.dir/test/trampoline-x86_64.S.o[0m
+[ 82%] [32m[1mLinking C static library libcrypto.a[0m
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[ 82%] Built target crypto
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[ 83%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/d1_both.cc.o[0m
+[ 83%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/bio_ssl.cc.o[0m
+[ 83%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/d1_lib.cc.o[0m
+[ 83%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/d1_pkt.cc.o[0m
+[ 85%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/d1_srtp.cc.o[0m
+[ 85%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/dtls_method.cc.o[0m
+[ 85%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/dtls_record.cc.o[0m
+[ 85%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/handoff.cc.o[0m
+[ 85%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/handshake.cc.o[0m
+[ 86%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/handshake_client.cc.o[0m
+[ 86%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/handshake_server.cc.o[0m
+[ 86%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/s3_both.cc.o[0m
+[ 86%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/s3_lib.cc.o[0m
+[ 87%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/s3_pkt.cc.o[0m
+[ 87%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_aead_ctx.cc.o[0m
+[ 87%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_asn1.cc.o[0m
+[ 87%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_buffer.cc.o[0m
+[ 87%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_cert.cc.o[0m
+[ 89%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_cipher.cc.o[0m
+[ 89%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_file.cc.o[0m
+[ 89%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_key_share.cc.o[0m
+[ 89%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_lib.cc.o[0m
+[ 90%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_privkey.cc.o[0m
+[ 90%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_session.cc.o[0m
+[ 90%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_stat.cc.o[0m
+[ 90%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_transcript.cc.o[0m
+[ 91%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_versions.cc.o[0m
+[ 91%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/ssl_x509.cc.o[0m
+[ 91%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/t1_enc.cc.o[0m
+[ 91%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/t1_lib.cc.o[0m
+[ 91%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/tls_method.cc.o[0m
+[ 93%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/tls_record.cc.o[0m
+[ 93%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/tls13_both.cc.o[0m
+[ 93%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/tls13_client.cc.o[0m
+[ 93%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/tls13_enc.cc.o[0m
+[ 94%] [32mBuilding CXX object ssl/CMakeFiles/ssl.dir/tls13_server.cc.o[0m
+[ 94%] [32m[1mLinking CXX static library libssl.a[0m
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[ 94%] Built target ssl
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[4]: Entering directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[ 94%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/args.cc.o[0m
+[ 95%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/ciphers.cc.o[0m
+[ 95%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/const.cc.o[0m
+[ 95%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/client.cc.o[0m
+[ 95%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/digest.cc.o[0m
+[ 97%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/file.cc.o[0m
+[ 97%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/generate_ed25519.cc.o[0m
+[ 97%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/genrsa.cc.o[0m
+[ 97%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/pkcs12.cc.o[0m
+[ 97%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/rand.cc.o[0m
+[ 98%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/server.cc.o[0m
+[ 98%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/sign.cc.o[0m
+[ 98%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/speed.cc.o[0m
+[ 98%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/tool.cc.o[0m
+[100%] [32mBuilding CXX object tool/CMakeFiles/bssl.dir/transport_common.cc.o[0m
+[100%] [32m[1mLinking CXX executable bssl[0m
+make[4]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+[100%] Built target bssl
+make[3]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[2]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+make[1]: Leaving directory '/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build'
+cargo:root=/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out
+cargo:rustc-link-search=native=/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build/crypto
+cargo:rustc-link-lib=static=crypto
+cargo:rustc-link-search=native=/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/build/ssl
+cargo:rustc-link-lib=static=ssl
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "c++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/aitrans/include" "-Wall" "-Wextra" "-w" "-o" "/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/src/aitrans/solution.o" "-c" "src/aitrans/solution.cxx"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/libaitrans.a" "/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/src/aitrans/solution.o"
+exit status: 0
+running: "ar" "s" "/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out/libaitrans.a"
+exit status: 0
+cargo:rustc-link-lib=static=aitrans
+cargo:rustc-link-search=native=/home/qwe/Desktop/code/dtp_test_scripts/sc_template/deps/build/builder/release/build/quiche-d5634b54fd55c24a/out
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++
