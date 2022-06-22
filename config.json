@@ -1,0 +1,15 @@
+[
+    {	"dir_name":"test1",
+	    "image_name":"dtptest",
+
+	 "block_trace":"./aitrans_block.txt",
+        "network_trace":"./net_trace/trace_7.txt",
+	        "block_size": 50,
+        "block_num": 5,
+        "redundancy": 0.0,
+        "cc": ["reno"],
+        "bw": 100,
+        "rtt": 40,
+        "loss": 0
+    }
+]
