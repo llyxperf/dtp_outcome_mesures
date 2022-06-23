@@ -6,6 +6,9 @@ import re
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
+
+import matplotlib.animation as animation
+
 def parse_log(logPath,blockConfPath):
 
     logStart='BlockID  bct  BlockSize  Priority  Deadline\n'
@@ -60,7 +63,7 @@ def parse_log(logPath,blockConfPath):
 
     #plt.ion()
 
-
+    fig=plt.figure()
     while flag:
         changeFlag=False#output when new lines arrive
         #wait
@@ -116,6 +119,8 @@ def parse_log(logPath,blockConfPath):
             plt.plot(timeX,high_rateY,label='HighPriority')
             plt.plot(timeX, rateY, label='Total')
             plt.legend()
+            ani = animation.ArtistAnimation(fig, high_rateY, interval=2, repeat_delay=1000)
+            ani.save("liveshow.gif",writer='pillow')
             plt.pause(interval)
             print('已接收{}块，平均完成时间为{}ms,高优先级块按时完成率为{}%'.format(recvBlockNum,avrTime,highBlockRate))
        #blocks num lines of blocks
